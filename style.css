@@ -13,7 +13,8 @@
   height: 520px;
 }
 .input-box {
-  text-align:right;
+  overflow: auto;
+  text-align: right;
   color: white;
   font-size: 25px;
   width: 90%;
@@ -34,7 +35,6 @@
   flex-wrap: wrap;
 }
 .all-btn button {
-  
   margin: 5px;
   font-size: 25px;
   display: flex;
