@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cal-body {
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 15px;
+  background-color: red;
+  border-radius: 20px;
+  width: 330px;
+  height: 520px;
+}
+.input-box {
+  text-align:right;
+  color: white;
+  font-size: 25px;
+  width: 90%;
+  height: 20%;
+  background-color: black;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/* .control-panel {
+} */
+
+.all-btn {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.all-btn button {
+  
+  margin: 5px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 65px;
+  height: 65px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.all-btn button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.678);
+  font-size: 23px;
+}
